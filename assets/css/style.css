@@ -1,0 +1,38 @@
+body {
+    background: #ff725c;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 25px;
+} 
+h1 { 
+    
+    color: ghostwhite;
+    text-align: center;
+    font-size: 70px;
+}
+.a { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    opacity:0; 
+    transition: 1s; 
+    animation: show 5000ms 1; 
+    animation-fill-mode: forwards; 
+    animation-iteration-count: infinite;
+}
+@keyframes show{
+0%{
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+.text1 {
+    color: ghostwhite;
+    text-align: left;
+    display: block;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    
+}
