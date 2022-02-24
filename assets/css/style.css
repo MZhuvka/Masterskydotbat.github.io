@@ -48,3 +48,6 @@ a {
 .b {
 margin-top: 30px;
 }
+.pfp {
+  clip-path: polygon(0px 208px, 146.5px 207px, 147px 141.2px, ...);
+}
