@@ -42,5 +42,5 @@ opacity:1;
 }
 a {
     color: floralwhite;
-    text-decoration: none;
+    text-decoration: inherit;
 }
