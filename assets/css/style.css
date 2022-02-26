@@ -1,8 +1,10 @@
 body {
-    background: #ff725c;
+    background: #527BA4;
     font-family: 'Montserrat', sans-serif; 
     font-size: 25px;
     color:ghostwhite;
+    margin:0;
+    padding:0;
 } 
 h1 { 
     
@@ -47,11 +49,25 @@ a {
 }
 .b {
 margin-top: 120px;
-font-size: 10px
+
 }
 .pfp {
     border-radius: 60px;
 }
 .c {
-    background-color: #111;
+    background-color: #103F6D;
+    width: 100%;
+    height: 80px;
+    font-size: 15px;
+    margin: 0;
+}
+.d{
+    color: #999999;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0;
+}
+.e {
+    background-color:#000000;
+    margin-bottom:0;
+    margin-top: 0;
 }
