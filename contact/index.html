@@ -29,7 +29,25 @@
     <p>Дс - krokodil#1537</p>
     <p><a href="https://vk.com/id680380522" target="_blank">Вк(тык)</a>
        </p>
-       
+    <script type="text/javascript">
+       // Когда пользователь прокручивает страницу, выполните myFunction
+window.onscroll = function() {myFunction()};
+
+// Получить навигатор
+var navbar = document.getElementById("topnav");
+
+// Получить смещение позиции навигационной панели
+var sticky = topnav.offsetTop;
+
+// Добавить класс sticky к навигационной панели, когда вы достигнете ее положения прокрутки. Удалите "sticky", когда вы покидаете положение прокрутки
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    topnav.classList.add("sticky")
+  } else {
+    topnav.classList.remove("sticky");
+  }
+}
+       </script>
     </div>
     <div class="b">
       <p></p>
